@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<constant name="struts.objectFactory" value="spring" />
+	<package name="baseLog" namespace="/default" extends="struts-default">
+		<interceptors>
+			<interceptor name="login" class="cn.system.basic.filter.LoginFilter" />
+			<interceptor name="log" class="cn.system.basic.filter.LogFilter" />
+			<interceptor-stack name="logStack">
+				<interceptor-ref name="login"></interceptor-ref>
+				<interceptor-ref name="log"></interceptor-ref>
+				<interceptor-ref name="defaultStack"></interceptor-ref>
+			</interceptor-stack>
+		</interceptors>
+		<default-interceptor-ref name="logStack"></default-interceptor-ref>
+		<global-results>
+			<result name="input">/tooBig.jsp</result>
+			<result name="logout" type="redirect">/return.jsp</result>
+		</global-results>
+	</package>
+
+	<package name="sysdefault" namespace="/default" extends="baseLog">
+		<interceptors>
+			<interceptor name="role"
+				class="cn.system.basic.filter.PrivilegeFilter" />
+			<interceptor name="base" class="cn.system.basic.filter.BaseFilter" />
+			<interceptor-stack name="loginStack">
+				<interceptor-ref name="logStack"></interceptor-ref>
+				<interceptor-ref name="base"></interceptor-ref>
+				<interceptor-ref name="role"></interceptor-ref>
+			</interceptor-stack>
+		</interceptors>
+
+		<default-interceptor-ref name="loginStack"></default-interceptor-ref>
+	</package>
+
+
+	<package name="mydefault" namespace="/default" extends="sysdefault">
+		<interceptors>
+			<interceptor-stack name="mydefaultStack">
+				<interceptor-ref name="loginStack"></interceptor-ref>
+			</interceptor-stack>
+		</interceptors>
+		<!-- 设置全局全局默认的拦截器栈 -->
+		<default-interceptor-ref name="mydefaultStack"></default-interceptor-ref>
+		<!-- 定义全局Result -->
+		<global-results>
+			<!-- 当返回login视图名时，转入/login.jsp页面 -->
+			<result name="login">/login.jsp</result>
+			<result name="logout" type="redirect">/login.jsp</result>
+			<result name="error">/login.jsp</result>
+		</global-results>
+	</package>
+</struts>

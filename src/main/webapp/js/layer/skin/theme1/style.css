@@ -1,0 +1,5 @@
+html #layui_layer_skintheme1stylecss{display:none; position: absolute; width:1989px;}
+body .layer-ext-theme1 .layui-layer-loading0{background:url(img/loading.png) center center no-repeat #fff;width: 208px;height:14px;}
+body .layer-ext-theme1 .layui-layer-btn{background-color: #f5f5f5;text-align: right;}
+body .layer-ext-theme1 .layui-layer-btn a {background: #0088cc;color: #fff;}
+body .layer-ext-theme1 .layui-layer-btn .layui-layer-btn1 {color: #333;background: #fff;}

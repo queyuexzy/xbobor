@@ -1,0 +1,282 @@
+@charset "utf-8";
+
+.icoPerson,.bthIco,.icoSmall,.bthPop,.siteIco,.icoPointBlack,.pagePre i,.pageNex i,.icoPers,.icoPass{ background-image: url(../image/_bg_site_24.png); _background-image:url(../image/_bg_site_8.png); background-repeat:no-repeat; display:inline-block; vertical-align:middle;}
+.mgL10{ margin-left:10px;}
+.mgt10{ margin-top:10px;}
+.mgLR10{ margin:0 10px;}
+.w75{ width:75px;}
+.w350{ width:350px;}
+.p10{ padding:10px;}
+.mgr10{ margin-right:10px;}
+.p15I{ padding:15px!important;}
+.c_468847{ color:#468847;}
+.c_b94a48{ color:#b94a48;}
+.c_c09853{ color:#c09853;}
+.c_999{ color:#999;}
+.c_ff0000{color:#ff0000}
+.c_008b00{color:#008b00}
+.tr{ text-align:right;}
+.w210{ width:210px;}
+.w280{ width:280px;}
+.w600{ width:600px;}
+.tc{ text-align:center;}
+.minH600{ height:auto!important; min-height:540px; _height:540px;}
+.w500{ width:500px;}
+.mAuto{ margin:auto;}
+.w300{ width:300px;}
+.h450{ height:450px;}
+.h200{ height:200px;}
+
+/* head */
+.header{ height:122px;}
+.headBanner{ height:60px; background:#fff url(../image/banner_top.png) left top no-repeat; }
+.headBg{ height:61px; background:#0088cc url(../image/banner_login.png) no-repeat left top; border-bottom:#cdc9c9 solid 1px;}
+.headLogo{ background:url(../image/logo.png) no-repeat left center; height:61px; width:385px; margin-left:40px;}
+.headLogo a{ display:block; width:120px; height:61px;}
+.headLogin{ height:61px;}
+.headLogin a{ vertical-align:top;}
+.topReg{ display:inline-block; height:55px; padding:6px 0 0 0; margin-right:10px;}
+.icoPerson{ width:50px; height:50px; margin-right:5px; }
+.personInfor{ color:#fff; display:inline-block; vertical-align: middle;}
+.bthPCen,.bthPOut{ height:61px; border-left:#cce7f5 solid 1px; background:#48a7d6; line-height:60px; display:inline-block; padding:0 20px; color:#fff;}
+.popTipTex strong{ font-size:14px;}
+/* left */
+
+
+
+
+/* main */
+.inputTex{ border:#cccccc solid 1px; background-color:#fff; padding:4px 5px; height:17px; vertical-align:middle;}
+.inputTexArea{ border:#cccccc solid 1px; background-color:#fff; padding:4px 5px; height:100px;width:280px; vertical-align:middle;}
+.bthBlueDeep{ background-color:#356eb0; color:#fff; display:inline-block; height:26px; line-height:26px; vertical-align:middle; padding:0 15px;}
+.main{ background-color:#fff; height:100%; width:100%;}
+.timaItem{ line-height:32px; font-size:12px; margin:5px 0 0 0; padding-left:10px;}
+.texRed{ color:#fe0c0c;}
+.texBlack{ color:#333;}
+.toolItem{ background:#eff3f8; border:#eaeaea solid 1px; padding:10px 10px 0 10px; font-size:14px; color:#333;}
+.smallTitle{ display:inline-block; vertical-align:middle;}
+.icoZoom{ background-position:0 -320px; width:18px; height:16px; margin-right:3px;}
+.bthBlueGrad{ background: url(../image/bthBlue.png) repeat-x center; height:27px; border:#0068b7 solid 1px; color:#fff; line-height:100%; border-radius:3px; padding:0 15px; display:inline-block; cursor:pointer;}
+.tableItemA{ width:100%; border-bottom:#e9e9e9 solid 1px; border-left:#e9e9e9 solid 1px;}
+.tableItemA th,.tableItemA td{ border-top:#e9e9e9 solid 1px; border-right:#e9e9e9 solid 1px;}
+.tableItemA th{ background-color:#6fb3e0; color:#fff; height:30px; line-height:30px; font-weight:normal; font-size:14px; text-align:center;}
+.tableItemA td{ color:#333; padding:15px 0 ; height:26px; line-height:26px; text-align:center; font-size:14px;}
+.texGreen{ color:#26a026;}
+.bthBlueOper,.bthYelOper{ height:26px; line-height:26px; color:#fff; display:inline-block; padding:0 10px; border:none; cursor:pointer; vertical-align:middle;}
+.bthBlueOper{ background-color:#356eb0;}
+.bthYelOper{ background-color:#ffb752;}
+.bthYelOper:hover{ background-color:#f1a944;}
+.icoDelA,.icoDelB{ width:18px; height:21px; }
+.icoDelA{ background-position:0 -421px; }
+.icoDelB{ background-position:0 -472px; }
+/* pop */
+.fullScreenBg{background:rgba(0,0,0,0.6);background:#000\9;filter:alpha(opacity=60)\9;opacity:0.6\9; position:absolute; top:0; left:0; z-index:99; width:100%; height:100%;}
+.pop{ position:absolute; background-color:#fff; z-index:510 }
+.popPor{ position:relative; background:#fff; border:1px solid #6fb3e0;}
+.popTitle{ /*border-bottom:#dddddd solid 1px;*/ background-color:#6fb3e0; height:35px; padding:0 10px; position:relative; }
+.titleH2{ font-size:14px; color:#333; line-height:35px;}
+.popCon{ padding:10px 5px;}
+.tablePopA,.tablePopB{ width:100%; border-bottom:#ddd solid 1px; border-left:#ddd solid 1px;}
+.tablePopA th,.tablePopA td,.tablePopB td,.tablePopB th{ border-top:#ddd solid 1px; border-right:#ddd solid 1px; cursor:default;}
+.tablePopA th{ background-color:#fff; color:#333; height:35px; line-height:35px; font-size:14px; text-align:center;}
+.tablePopA td{ height:35px; line-height:35px; text-align:center;}
+.bg_f9f9f9 td{ background-color:#f9f9f9;}
+.trHover td{ background-color:#f5f5f5;}
+.bthClosed{ width:14px; height:14px; background-position:0 -524px; }
+.popTitle .bthClosed{ position: absolute; top:10px; right:10px;}
+
+/* UI ico */
+.body{ background-color:#6a7591; padding:10px;}
+.icoDate{ background-position:0 -1187px; width:14px; height:13px;}
+.icoTipError{ background-position:0 -1107px; width:48px; height:48px;}
+.icoTipWarning{background-position:0 -1029px; width:48px; height:48px;}
+.icoTipSuccess{ background-position:0 -951px; width:48px; height:48px;}
+.icoRight{ background-position:0 -836px; width:16px; height:16px;}
+.icoArrowBot{ background-position:0 -744px; width:16px; height:16px;}
+.icoArrowRight{ background-position:0 -698px; width:16px; height:16px;}
+.icoArrowLeft{ background-position:0 -790px; width:16px; height:16px;}
+.icoArrowTop{ background-position:0 -652px; width:16px; height:16px;}
+.icoReduc{ background-position:0 -612px; width:15px; height:15px;}
+.icoAdd{ background-position:0 -567px; width:15px; height:15px;}
+
+/* UI tab */
+.tabNav{ height:32px; background:#fff;}
+.tabNav a{ display:inline-block; height:32px; line-height:32px; color:#333; padding:0 12px; vertical-align:top;}
+.tabNav a.tabNavHover{ height:33px; position:relative; top:-3px; padding-top:2px; background-color:#fcfcfc; border:#cccccc solid 1px; border-bottom:none; color:#0088cc;}
+.tabCon{ background-color:#fff; border:#cccccc solid 1px;}
+.tabConItem{ background:#fcfcfc;}
+
+/* UI pop */
+.popBot{ background:#f5f5f5; border-top:#dddddd solid 1px;}
+.bthWhitePop,.bthBluePop{ height:26px; line-height:26px; display:inline-block; padding:0 10px; border:none; cursor:pointer;}
+.bthWhitePop{ background:#fff; color:#333;}
+.bthBluePop{ background:#0088cc; color:#fff;}
+.popTip{ position:inherit;}
+.popTip .popTitle{ background:#fff; border-bottom:#ddd solid 1px;}
+.popTip .bthClosed{ background-position:-64px -524px;}
+.borRad .popPor{ border-radius:5px;}
+.popBlue .popTitle{ background-color:#c4e0f2;}
+.tablePopA tr:hover td,.tablePopA tr.bg_f9f9f9:hover td,.tablePopB tr:hover td,.tablePopB tr.bg_f9f9f9:hover td,.tablePopB tr:hover th,.tablePopB tr.bg_f9f9f9:hover th{ background-color:#f5f5f5;}
+.pNameReg{ padding:5px 0;}
+.regTitle{ display:inline-block; color:#333; margin-right:5px;} 
+.inputReg,.inputNum{ border-radius:5px; border:#ddd solid 1px; background-color:#fff; height:26px; line-height:26px;}
+.inputNum{ width:100px;}
+.unmImg{ margin-left:10px; display:inline-block;}
+.unmImg a{ margin-left:5px;}
+.bthNum{ color:#0385d3;}
+.popLogin{ position:absolute}
+.loading{ padding:50px 0; text-align:center; display:inline-block; width:100%;}
+.popSmall{ position:absolute;}
+.popSmallBg{ position:relative;}
+.popInforBlack{ padding:8px 10px; background:#000; color:#fff; border-radius:5px;}
+.icoPointBlack{ position:absolute; bottom:-7px; left:45%; width:14px; height:7px; background-position:0 -1230px;}
+
+.tablePopB td,.tablePopB th{ padding:5px 0 5px 10px; line-height:100%; height:27px;}
+.tablePopB th{ text-align:right; padding-right:5px; padding-left:0;}
+.tablePopB th em{ color:#a11e3d; vertical-align:middle; margin-right:5px;}
+.popSel{ padding:5px;}
+.tablePopB tr.bg_f9f9f9 th{ background-color:#f9f9f9;}
+.tablePopB textarea{outline:none;resize:none;}
+.popTip .popPor{ border:1px solid #ddd;}
+.popBlue .popPor{ border:1px solid #c4e0f2;}
+.borRad .popTitle{ border-radius:5px 5px 0 0;}
+.inputErro{ border-color:#a95565;}
+
+
+/* hDivBox */
+.flexigrid.novstripe .bDiv table{/* width:100%;*/ border-bottom:#e9e9e9 solid 1px; border-left:#e9e9e9 solid 1px;}
+.flexigrid.novstripe .bDiv table th,.flexigrid.novstripe .bDiv table td{ border-top:#e9e9e9 solid 1px; border-right:#e9e9e9 solid 1px;}
+.flexigrid.novstripe .bDiv table th{ background-color:#6fb3e0; color:#fff; height:30px; line-height:30px; font-weight:normal; font-size:14px; text-align:center;}
+.flexigrid.novstripe .bDiv table td{ color:#333; padding:3px 0 ; height:26px; line-height:26px; text-align:center; font-size:14px;}
+.flexigrid.novstripe .bDiv table td div.tL{text-align:left!important;}
+.flexigrid.novstripe .bDiv table td div.tL .bthBlueOper{ margin-bottom:10px;}
+
+
+.toolDiv{ border-bottom:1px solid #eaeaea; padding:10px 0;}
+.bg_6fb3e0{ background-color:#6fb3e0; color:#fff;}
+.borB_eaeaea{border-bottom:1px solid #eaeaea;}
+.borL_ddd{border-left:1px solid #ddd;}
+.pTB10{ padding:10px 0;}
+
+/* welcom */
+body.welcomPage{ background-color:#145999; }
+.welcom{ position:relative; background:url(../image/welcomBgA.png) no-repeat right bottom;}
+.welcomTitle{ top:45%; position: absolute; /*left:20px;*/ left:30%; font-weight: normal; color:#fff; font-size:36px; font-family:"宋体";}
+
+/* page */
+.page{ height:34px;}
+.page a,.pagePre,.pageNex{ display:inline-block; vertical-align:middle; width:34px; height:34px; line-height:34px; text-align: center; background:#fff;}
+.page span{ display:inline-block; vertical-align:middle; height:34px;}
+.icoPre,.icoNex{ width:10px; height:10px; display:inline-block; vertical-align:middle; margin:12px 0 0 0px; }
+.icoPre{ background-position:2px -877px; }
+.icoNex{ background-position:-18px -877px; }
+.pageEnd{ cursor:default;}
+.pageEnd .icoPre{ background-position:2px -913px; }
+.pageEnd .icoNex{ background-position:-18px -913px; }
+.pagePre,.page span a{ border-right:#dddddd solid 1px;}
+.page span a:link,.page span a:visited{ color:#0088cc;}
+.page span a:hover,.page span a.pageHover:link,.page span a.pageHover:visited,.page span a.pageHover:hover{ color:#999999; background:#f5f5f5;}
+
+.tableItemC{ background:#fff;}
+.tableItemC th{ width:30%;}
+td.tableBot{ padding-left:30%;}
+td.tableBot span{ color:#F00; margin-left:10px; display:inline-block; vertical-align:middle;}
+
+.processItem,.processLine,.processLineCon{ display:inline-block; vertical-align:middle; }
+.processItem{ color:#fff; text-align:center; background:url(../image/bg_round_gary.png) no-repeat center; width:100px; height:60px; overflow:hidden; padding:40px 0 0 0; font-size:16px; z-index:2; position:relative;}
+.processB{ left:-3px;}
+.processC{ left:-4px;}
+.proHover{ background:url(../image/bg_round_green.png) no-repeat center;}
+.porErro{ background:url(../image/bg_round_red.png) no-repeat center;}
+.processLine{ width:88px; height:20px; text-align:left; border-top:#ddd solid 1px; border-bottom:#ddd solid 1px; position:relative; left:-3px; background-color:#f1f1f1}
+.processLineCon{ height:20px; background:url(../image/login.png) repeat-x center center;}
+
+/* mainDiv */
+.mainDiv {
+    bottom: 0;
+    left: 0;
+    padding-left: 300px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.leftDiv {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 300px;
+}
+.rightDiv{ }
+.bg_cde3ff{ background-color:#cde3ff;}
+.bg_c4e0f2{ background-color:#c4e0f2;}
+.borR_ddd{ border-right:#ddd solid 1px;}
+.bgLeft{ background:url(../image/bgBodyLeft.gif) repeat-y left top;}
+.bgRight{ background:url(../image/bgBodyRight.gif) repeat-y left top;}
+.scrollAuto {
+    bottom: 0;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    top: 38px;
+    width: 300px;
+}
+
+.bthBlueDeep:hover,.bthBlueOper:hover,.bthBluePop:hover{ background-color:#319ddb;}
+.bthWhitePop:hover{ background-color:#fafcff;}
+.overflowYAuto{ overflow:hidden; overflow-y: auto; overflow-x:hidden;}
+
+
+/* login */
+.login{ /*background:url(../image/login_bg_1.jpg) no-repeat center bottom; height:100%;*/ position:relative; background:none}
+.loginBg{ background:url(../image/login_bg_1.jpg) no-repeat center center/100% 100%; position:fixed; width:100%; height:1000px; top:0; left:0; z-index:1; background:url(../image/login_bg_1.jpg) no-repeat center center\9; }
+.loginBox{ width:560px; margin:auto; position:relative; z-index:3; padding:10px; margin-top:8%;}
+.loginTop{ height:95px; color:#fff; }
+.logoLogin{ display:inline-block; width:120px; height:60px; *float:left;}
+.loginTop strong{ display:inline-block; float:right; height:60px; line-height:40px; font-size:40px; font-weight:normal;}
+.loginCon{ width:250px; margin:0 auto;}
+.por{ position:relative;}
+.icoPers,.icoPass{ display:inline-block; width:20px; border-right:#8ba4bd solid 3px; height:16px; position:absolute; left:8px; top:12px;}
+.icoPers{ background-position:0 -1255px;}
+.icoPass{ background-position:0 -1289px;}
+.loginInputA,.loginInputB{ color:#fff;border:none; border-radius:3px; background-color:#205280;-moz-box-shadow:1px 1px 1px #222 inset; -webkit-box-shadow:1px 1px 1px #222 inset;  box-shadow:1px 1px 1px #222 inset;  }
+.loginInputA{ width:200px; height:24px; line-height:24px; padding:8px 10px 8px 40px; }
+.loginInputB{ width:130px; height:20px; padding:5px; text-align:center; }
+.loginItem{ margin-bottom:10px;}
+.foget{ line-height:25px; color:#9fc1e0; line-height:22px;}
+.foget input{ vertical-align:middle;}
+.loginButton{ background:url(../image/bthLogin.gif) repeat-x left center;border:none;  border-radius:3px; height:30px; padding:5px; display:inline-block; line-height:28px; font-size:18px; color:#034a79; width:240px;-webkit-box-shadow:0 0 10px #225380;  -moz-box-shadow:0 0 10px #225380;  box-shadow:0 0 10px #225380; }
+
+.loginBot{position:fixed; width:100%; line-height:22px; color:#fff; bottom:10px; left:0; z-index:2; text-align:center; }
+
+
+/* break */
+.break{ height:25px; line-height:25px; margin-top:10px;}
+.break a{ color:#356eb0;}
+.break a:hover{ color:#319ddb;}
+
+.tableItemA{ background:#fff;}
+.tableItemA td{ text-align:left; padding:10px; vertical-align:text-top;}
+.inputTexIn{ background:#1px solid #cccccc; border:1px solid #ccc; height:17px; padding:4px 5px; width:30px; text-align:center; margin:0 10px;}
+.titleH3{ font-size:16px;}
+.c_ff0014{ color:#ff0014;}
+.tabItem{ border-bottom:#e9e9e9 dashed 1px; padding:0 0 10px 0; margin-top:10px;}
+.titleH4{ font-size:14px;}
+.titleH4 a{ color:#222; }
+.titleH4 a:hover{ color:#333; }
+.titleH4 a em,.pNameCite em{ color:#ff0014; font-style:normal;}
+.pNameTab{ line-height:22px; font-size:12px; color:#333;}
+.pNameCite{ height:26px; line-height:26px; font-size:12px;}
+.citeLeft{ float:left; color:#666; }
+.citeRight{ float:right; width:60%; text-align:left;}
+.pNameCite em { margin-right:10px;}
+.citeRGreen em{ color:#26a026}
+.page{ border:1px solid #dddddd; display:inline-block;}
+
+
+.tabScroll{ height:450px; overflow-y:auto; overflow-x:hidden;}
+.bthDef{ background:#999!important;cursor:default;}
+.bthDefPub{ background:#999!important;cursor:default;border: 0px;}
+.popTipTex{ float:left; width:255px;}
+

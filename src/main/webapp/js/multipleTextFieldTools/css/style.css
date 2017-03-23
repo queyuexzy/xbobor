@@ -1,0 +1,46 @@
+.popup_div {
+    clear: both;
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+	line-height: 30px;
+}
+.popup_cl {
+    clear: both;
+    float: none;
+    height: 0;
+    overflow: hidden;
+}
+.popup_i_add{
+    background-image: url("../img/add.gif") ;
+	margin-left: 10px;
+	margin-right: 0px;
+	vertical-align: middle;
+    cursor: pointer;
+    display: inline-block;
+	background-repeat: no-repeat;
+	height: 17px;
+    width: 14px;
+}
+.popup_i_edit{
+	background-image: url("../img/edit.gif") ;
+	margin-left: 10px;
+	margin-right: 0px;
+	vertical-align: middle;
+    cursor: pointer;
+    display: inline-block;
+	background-repeat: no-repeat;
+	height: 17px;
+    width: 14px;
+}
+.popup_i_del{
+	background-image: url("../img/del.png");
+	margin-left: 10px;
+	margin-right: 0px;
+	vertical-align: middle;
+    cursor: pointer;
+    display: inline-block;
+	background-repeat: no-repeat;
+	height: 17px;
+    width: 14px;
+}

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="xbobor:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="xbobor.war">
+      <element id="artifact" artifact-name="xbobor:war exploded" />
+    </root>
+  </artifact>
+</component>

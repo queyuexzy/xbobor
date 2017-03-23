@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<constant name="struts.objectFactory" value="spring" />
+	<!-- 设置上传文件大小 不大于 50k  524288000-->
+	<constant name="struts.multipart.maxSize" value="104857600" />
+	<!-- 设置struts2 标签可以访问静态方法 -->
+	<constant name="struts.ognl.allowStaticMethodAccess" value="true" />
+	<constant name="struts.multipart.saveDir" value="/tmp"></constant>
+	<include file="struts/*.xml"></include>
+	<include file="system/interceptor.xml"/>
+</struts>

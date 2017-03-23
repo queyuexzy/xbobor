@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<package name="index" namespace="/index" extends="mydefault">
+		<action name="index_*" class="com.action.IndexAction" method="{1}">
+			<result name="toSquare">/index.jsp</result>
+			<result name="toMine">/mine.jsp</result>
+			<result name="toProductList">/order-product-list.html</result>
+			<result name="toDiscover">/discover.html</result>
+		</action>
+		<action name="cart_addToCart" class="com.action.CartAction" method="addToCart">
+		</action>
+		<action name="category" class="com.action.IndexAction" method="toCategory">
+			<result name="quanbu">/productList.jsp</result>
+			<result name="lingshi">/productList.jsp</result>
+			<result name="shuiguo">/productList.jsp</result>
+			<result name="liangyou">/productList.jsp</result>
+			<result name="shucai">/productList.jsp</result>
+			<result name="shenghuo">/productList.jsp</result>
+			<result name="fushi">/productList.jsp</result>
+			<result name="yinpin">/prod
+				uctList.jsp</result>
+		</action>
+		<action name="product" class="com.action.IndexAction" method="toProduct">
+			<result name="quanbu">/productDetails.jsp</result>
+		</action>
+	</package>
+
+	<package name="userInfo" namespace="/userInfo" extends="mydefault">
+		<action name="*" class="com.action.UserInfoAction" method="{1}">
+		</action>
+	</package>
+</struts>

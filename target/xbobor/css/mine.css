@@ -1,0 +1,242 @@
+.page {
+    position: relative
+}
+a {
+    text-decoration: none;
+    color: #333
+}
+
+.head-image .title {
+    margin-top: 10px
+}
+
+.head-image>li .icon-right {
+    top: 25px!important
+}
+
+.iconfont {
+    color: #B31800
+}
+
+.my-order {
+    display: block;
+    padding: 10px;
+    background-color: #fff
+}
+
+.my-order .right {
+    float: right
+}
+
+ul.order-status {
+    list-style: none;
+    background-color: #fff;
+    padding: 10px 0;
+    border-bottom: solid 1px #e5e5e5
+}
+
+ul.order-status a span {
+    font-size: 11px;
+    color: #1a1a1a;
+    margin-top: 10px;
+    display: inline-block;
+    line-height: 11px
+}
+
+ul.order-status li {
+    width: 20%;
+    float: left;
+    font-size: .9em;
+    text-align: center;
+    position: relative
+}
+
+ul.order-status li+li:before {
+    content: '';
+    width: 1px;
+    height: 40px;
+    background-color: #e5e5e5;
+    position: absolute;
+    left: 0;
+    top: 2.5px
+}
+
+ul.order-status li .iconfont {
+    display: block;
+    width: 1em;
+    margin: auto;
+    font-size: 22px;
+    color: #707070
+}
+
+a.person {
+    height: 75px;
+    padding: 10px 125px 10px 100px;
+    display: block;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-bottom: solid 1px #e2e2e2;
+    position: relative
+}
+
+.person .title {
+    color: #1a1a1a;
+    font-size: 14px;
+    margin-top: 21.5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.person .right {
+    position: absolute;
+    font-size: 12px;
+    right: 12px;
+    top: 31px;
+    color: #707070
+}
+
+.person img {
+    height: 55px;
+    width: 55px;
+    border-radius: 100em;
+    position: absolute;
+    left: 25px;
+    border: solid 2.5px #ccc;
+    box-sizing: border-box
+}
+
+.person .icon-right {
+    font-size: 14px;
+    margin-left: 5px;
+    color: #a6a6a6
+}
+
+ul.list.icon.right-icon.orders {
+    margin-bottom: 0
+}
+
+ul.order-status li>span {
+    display: none
+}
+
+ul.order-status li>span.show {
+    position: absolute;
+    left: 50%;
+    top: -6px;
+    background-color: #F03E43;
+    padding: 1px 3px;
+    border-radius: 20px;
+    font-size: 10px;
+    color: #fff;
+    min-width: 17px;
+    border: solid 2px #fff;
+    box-sizing: border-box
+}
+.download-tip {
+    background-color: rgba(0,0,0,.8);
+    color: #fff;
+    font-size: 12px;
+    width: 100%;
+    line-height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5
+}
+
+.download-tip .toomao-icon-close {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAgMAAAAOFJJnAAAADFBMVEX///9MaXH///////+1it7yAAAAA3RSTlOgAEBV0tguAAAAbUlEQVR4XkWQyxXAIAgEtwkL8ZgeuCmHFJBb2qSvZJ6+1QOOfGRBuY/udT96F1wajXuWZgGjKTsQqQyg/0DSrBSGh3ATFhYWfqIik3xRG7kg+oZRhhNyssv94WnhppZhYUeqxXscD+iRvQSv5QNf/VX78gYA8QAAAABJRU5ErkJggg==);
+    margin: 0 10px;
+    color: #fff;
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    background-size: 100% 100%;
+    vertical-align: middle
+}
+
+.download-tip img {
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+    margin-right: 10px
+}
+
+.download-tip .span {
+    font-size: .9em
+}
+
+.download-tip a {
+    color: #fff;
+    text-decoration: none;
+    border-left: solid 1px;
+    float: right;
+    margin: 18px 5px 0;
+    padding-left: 10px;
+    line-height: normal
+}
+.menu {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    cursor: pointer;
+    z-index: 101;
+    transition: all 1s;
+    border-top: solid 1px #e2e2e2
+}
+
+.menu.show-menu {
+    bottom: 0
+}
+
+.menu.hide-menu {
+    bottom: -80px
+}
+
+.menu-list {
+    list-style: none;
+    margin: 0;
+    background-color: rgba(255,255,255,.95);
+    padding: 0;
+    font-size: 0
+}
+
+.menu-list a {
+    display: block;
+    text-decoration: none;
+    color: inherit
+}
+
+.menu-list .iconfont {
+    display: block;
+    margin: auto;
+    font-size: 22px;
+    color: #1a1a1a
+}
+
+.menu-list li {
+    text-align: center;
+    color: #1a1a1a;
+    cursor: pointer;
+    width: 20%;
+    display: inline-block;
+    padding: 6px 0;
+    position: relative;
+    float: left
+}
+
+.menu-list li.active {
+    color: #B31800
+}
+
+.menu-list li.active .iconfont {
+    color: #B31800
+}
+
+.menu .menu-list span {
+    font-size: 11px;
+    margin-top: 4px;
+    display: block
+}

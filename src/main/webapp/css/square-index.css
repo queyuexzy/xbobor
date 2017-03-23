@@ -1,0 +1,436 @@
+.page {
+    position: relative
+}
+.products-list li {
+  margin-bottom: 0;
+}
+ul.products-list {
+  margin-top: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+.cate-list li .name {
+  font-size: 14px;
+  line-height: 14px;
+  margin-top: 12px;
+}
+.cate-list, .special-list, .time-limited-list, .theme-list, .products-list {
+  list-style: none;
+  padding: 0;
+}
+.theme-list, .special-list, .time-limited-list, .products-list {
+  background-color: #fff;
+  border-bottom: solid 1px #E5E5E5;
+}
+.special-list li, .time-limited-list li, .theme-list li, .products-list li {
+  padding: 0 12px 10px !important;
+}
+ul.special-list a, ul.time-limited-list a, ul.theme-list a, ul.products-list a {
+  display: block;
+  line-height: 0;
+}
+ul.special-list img, ul.time-limited-list img, ul.theme-list img, ul.products-list img {
+  width: 100%;
+}
+.products-list li {
+  padding-top: 0 !important;
+  padding-bottom: 5px !important;
+}
+.products-list li + li {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  border-top: dashed 1px #e5e5e5;
+}
+.cate-list-wrapper {
+  width: 100%;
+  overflow: scroll;
+  background-color: #fff;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.cate-list-wrapper::-webkit-scrollbar {
+  height: 0;
+}
+
+/* Track */
+
+.cate-list-wrapper::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+
+.cate-list-wrapper::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+.cate-list-wrapper::-webkit-scrollbar-thumb {
+  background: rgba(188, 188, 188, 1);
+}
+.cate-list {
+  margin: 0;
+  font-size: 0;
+}
+.cate-list li {
+  padding: 0px;
+  display: inline-block;
+  text-align: center;
+  margin: 8px 0;
+}
+.cate-list.sum-1 li {
+  width: 100%;
+}
+.cate-list.sum-2 li {
+  width: 50%;
+}
+.cate-list.sum-3 li {
+  width: 33.3%;
+}
+.cate-list.sum-4 li {
+  width: 25%;
+}
+.cate-list.sum-5 li {
+  width: 20%;
+}
+.cate-list.sum-6 li {
+  width: 33.3%;
+}
+.cate-list.sum-7 li,
+.cate-list.sum-8 li  {
+  width: 25%;
+}
+.cate-list.sum-9 li,
+.cate-list.sum-10 li {
+  width: 20%;
+}
+.cate-list.sum-11 li,
+.cate-list.sum-12 li {
+  width: 16.666%;
+}
+.cate-list li img {
+  height: 40px;
+  width: 40px;
+}
+.cate-list li a {
+  text-decoration: none;
+  color: #1a1a1a;
+  display: block;
+  margin-bottom: 2px;
+}
+.square-banner {
+  position: relative;
+}
+.square-banner .icons {
+  left: 0;
+  position: fixed;
+  top: 0;
+  z-index: 12;
+  width: 100%;
+  font-size: 20px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&amp;0.8+0,0+100;Neutral+Density */
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000', GradientType=0);
+  /* IE6-9 */
+}
+.square-banner .icons .icon-search {
+  float: right;
+  padding: 12px 15px;
+  color: #fff;
+}
+.square-banner .icons .icon-china {
+  float: left;
+  padding: 12px 15px;
+}
+.time-limited-list li {
+  position: relative;
+}
+.time-limited-list li + li:before {
+  content: '';
+  width: 100%;
+  border-bottom: solid 1px #ccc;
+  margin-bottom: 10px;
+  display: block;
+  bottom: 0;
+}
+.time-limited-list .title {
+  color: #1a1a1a;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 8px;
+}
+.time-limited-list .time {
+  margin-top: 10px;
+  color: #b3b3b3;
+  display: inline-block;
+  position: relative;
+  font-size: 12px;
+}
+.time-limited-list .time:after, .time-limited-list .time:before {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 12px;
+  background-color: #b3b3b3;
+  top: 5px;
+  position: absolute;
+}
+.time-limited-list .time:before {
+  left: -20px;
+}
+.time-limited-list .time:after {
+  right: -20px;
+}
+ul.products-list {
+  margin-bottom: 0;
+}
+.square .image-view {
+  display: block;
+  background-color: #fff;
+  margin: 10px 0;
+}
+.advert-2 {
+  margin-bottom: 10px;
+}
+.swiper-pagination-bullet-active {
+    background-color: #fff;
+}
+.square-title-wrapper {
+    text-align: center
+}
+
+.square-title {
+    padding: 10px 0;
+    background-color: #fff;
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1a1a1a;
+    top: -20px;
+    margin-left: 0;
+    left: 0
+}
+.menu {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    cursor: pointer;
+    z-index: 101;
+    transition: all 1s;
+    border-top: solid 1px #e2e2e2
+}
+
+.menu.show-menu {
+    bottom: 0
+}
+
+.menu.hide-menu {
+    bottom: -80px
+}
+
+.menu-list {
+    list-style: none;
+    margin: 0;
+    background-color: rgba(255,255,255,.95);
+    padding: 0;
+    font-size: 0
+}
+
+.menu-list a {
+    display: block;
+    text-decoration: none;
+    color: inherit
+}
+
+.menu-list .iconfont {
+    display: block;
+    margin: auto;
+    font-size: 22px;
+    color: #1a1a1a
+}
+
+.menu-list li {
+    text-align: center;
+    color: #1a1a1a;
+    cursor: pointer;
+    width: 20%;
+    display: inline-block;
+    padding: 6px 0;
+    position: relative;
+    float: left
+}
+
+.menu-list li.active {
+    color: #B31800
+}
+
+.menu-list li.active .iconfont {
+    color: #B31800
+}
+
+.menu .menu-list span {
+    font-size: 11px;
+    margin-top: 4px;
+    display: block
+}
+.to-top {
+    position: fixed;
+    background-color: rgba(0,0,0,.39);
+    right: 10px;
+    bottom: 70px;
+    padding: 7px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 24px
+}
+
+.slider {
+    height: 210px;
+    position: relative;
+    perspective: 1280px!important;
+    -webkit-perspective: 1280px!important
+}
+
+.slider .islider-dot-wrap {
+    height: auto
+}
+
+.slider .islider-dot {
+    height: 5px;
+    width: 5px;
+    background: rgba(0,0,0,.2);
+    border: none
+}
+.slider .swiper-slide {
+    height: 100%;
+    width: 100%;
+    display: block;
+    background-size: cover;
+    background-position: center
+}
+.islider-outer {
+    display: block;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden
+}
+
+.islider-outer>li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    overflow: hidden;
+    display: -moz-box;
+    display: -webkit-box;
+    display: box;
+    -moz-box-pack: center;
+    -webkit-box-pack: center;
+    box-pack: center;
+    -moz-box-align: center;
+    -webkit-box-align: center;
+    box-align: center
+}
+
+.islider-img>img {
+    max-width: 100%;
+    max-height: 100%
+}
+
+.islider-sliding {
+    z-index: 0
+}
+
+.islider-sliding-focus {
+    z-index: 1
+}
+
+.islider-btn-outer {
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    cursor: pointer;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    display: block;
+    background-color: #777
+}
+
+.islider-btn-outer.left {
+    left: 5%
+}
+
+.islider-btn-outer.right {
+    right: 5%
+}
+
+.islider-btn-inner {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+.islider-btn-outer.left>.islider-btn-inner {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.islider-btn-outer.right>.islider-btn-inner {
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg)
+}
+
+.islider-dot-wrap {
+    width: 80%;
+    height: 10%;
+    margin: 0 auto;
+    position: absolute;
+    padding: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10000;
+    text-align: center
+}
+
+.islider-dot {
+    position: relative;
+    display: inline-block;
+    width: .8em;
+    height: .8em;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    list-style: none;
+    margin: 2.5px
+}
+
+.islider-dot.active {
+    background-color: #fff
+}

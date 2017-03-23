@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+		http://www.springframework.org/schema/tx
+		http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
+	<bean id="database_192_168_74_44_nongguo"
+		class="org.springframework.jdbc.datasource.SingleConnectionDataSource"
+		destroy-method="destroy">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://quyue.gotoftp4.com:3306/quyue?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8&amp;zeroDateTimeBehavior=convertToNull" />
+		<property name="username" value="quyue" />
+		<property name="password" value="s5c3fnjk" />
+	</bean>
+
+	<bean id="database_588993dd8a3ba.bj.cdb.myqcloud.com"
+		  class="org.springframework.jdbc.datasource.SingleConnectionDataSource"
+		  destroy-method="destroy">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://588993dd8a3ba.bj.cdb.myqcloud.com:7607/cAuth?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8&amp;zeroDateTimeBehavior=convertToNull" />
+		<property name="username" value="cdb_outerroot" />
+		<property name="password" value="cdb_outerroot" />
+	</bean>
+	
+</beans>
